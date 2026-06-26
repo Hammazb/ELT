@@ -1,0 +1,12 @@
+custom_postgres:
+  target: dev
+  outputs:
+    dev:
+      type: postgres
+      threads: 1
+      host: destination_postgres
+      port: 5432
+      user: postgres
+      pass: secret
+      dbname: destination_db
+      schema: public

@@ -1,0 +1,12 @@
+cd /Users/hammazbuksh/elt && cat > .gitignore << 'EOF'
+.venv/
+__pycache__/
+*.pyc
+.DS_Store
+*.log
+target/
+airbyte/
+dbt_packages/
+.claude/
+logs/
+EOF
